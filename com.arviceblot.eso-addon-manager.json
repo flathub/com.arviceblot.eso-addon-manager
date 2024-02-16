@@ -13,7 +13,12 @@
         "--socket=fallback-x11",
         "--socket=wayland",
         "--device=dri",
-        "--filesystem=host"
+        "--filesystem=~/.steam",
+        "--filesystem=~/.local/share/Steam",
+        "--filesystem=~/.var/app/com.valvesoftware.Steam",
+        "--filesystem=~/Games",
+        "--filesystem=xdg-documents/Elder Scrolls Online",
+        "--filesystem=/run/media/mmcblk0p1/steamapps"
     ],
     "build-options": {
         "append-path": "/usr/lib/sdk/rust-stable/bin"
@@ -39,7 +44,7 @@
                 {
                     "type": "git",
                     "url": "https://github.com/arviceblot/eso-addons",
-                    "commit": "6a720508f8961d1c5e39cdcd8fe3ba0342b6f3a8"
+                    "commit": "ec34b9438cba6db61256e219d354e96ab1366243"
                 },
                 "cargo-sources.json"
             ]
