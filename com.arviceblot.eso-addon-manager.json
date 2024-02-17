@@ -18,7 +18,7 @@
         "--filesystem=~/.var/app/com.valvesoftware.Steam",
         "--filesystem=~/Games",
         "--filesystem=xdg-documents/Elder Scrolls Online",
-        "--filesystem=/run/media/mmcblk0p1/steamapps"
+        "--filesystem=/run/media"
     ],
     "build-options": {
         "append-path": "/usr/lib/sdk/rust-stable/bin"
