@@ -44,7 +44,7 @@
                 {
                     "type": "git",
                     "url": "https://github.com/arviceblot/eso-addons",
-                    "commit": "e3adba2673a6071cae0c41240afc1702f8c48281"
+                    "commit": "8878029ccdcf3f07317fe8f67f82b2c64882a6fd"
                 },
                 "cargo-sources.json"
             ]
