@@ -3070,19 +3070,6 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://static.crates.io/crates/hostname/hostname-0.4.1.crate",
-        "sha256": "a56f203cd1c76362b69e3863fd987520ac36cf70a8c92627449b2f64a8cf7d65",
-        "dest": "cargo/vendor/hostname-0.4.1"
-    },
-    {
-        "type": "inline",
-        "contents": "{\"package\": \"a56f203cd1c76362b69e3863fd987520ac36cf70a8c92627449b2f64a8cf7d65\", \"files\": {}}",
-        "dest": "cargo/vendor/hostname-0.4.1",
-        "dest-filename": ".cargo-checksum.json"
-    },
-    {
-        "type": "archive",
-        "archive-type": "tar-gzip",
         "url": "https://static.crates.io/crates/html5ever/html5ever-0.29.1.crate",
         "sha256": "3b7410cae13cbc75623c98ac4cbfd1f0bedddf3227afc24f370cf0f50a44a11c",
         "dest": "cargo/vendor/html5ever-0.29.1"
