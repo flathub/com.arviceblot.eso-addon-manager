@@ -1,7 +1,7 @@
 {
     "app-id": "com.arviceblot.eso-addon-manager",
     "runtime": "org.freedesktop.Platform",
-    "runtime-version": "24.08",
+    "runtime-version": "25.08",
     "sdk": "org.freedesktop.Sdk",
     "sdk-extensions": [
         "org.freedesktop.Sdk.Extension.rust-stable"
@@ -44,7 +44,7 @@
                 {
                     "type": "git",
                     "url": "https://github.com/arviceblot/eso-addons",
-                    "commit": "7c7dc0990cba04cf7acc18965cb8efd99c4e87ef"
+                    "commit": "9d29dbd588190646b55b9c7281dc3bae80aa10ae"
                 },
                 "cargo-sources.json"
             ]
