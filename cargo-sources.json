@@ -1679,6 +1679,19 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
+        "url": "https://static.crates.io/crates/crossbeam-channel/crossbeam-channel-0.5.15.crate",
+        "sha256": "82b8f8f868b36967f9606790d1903570de9ceaf870a7bf9fbbd3016d636a2cb2",
+        "dest": "cargo/vendor/crossbeam-channel-0.5.15"
+    },
+    {
+        "type": "inline",
+        "contents": "{\"package\": \"82b8f8f868b36967f9606790d1903570de9ceaf870a7bf9fbbd3016d636a2cb2\", \"files\": {}}",
+        "dest": "cargo/vendor/crossbeam-channel-0.5.15",
+        "dest-filename": ".cargo-checksum.json"
+    },
+    {
+        "type": "archive",
+        "archive-type": "tar-gzip",
         "url": "https://static.crates.io/crates/crossbeam-deque/crossbeam-deque-0.8.6.crate",
         "sha256": "9dd111b7b7f7d55b72c0a6ae361660ee5853c9af73f70c3c2ef6858b950e2e51",
         "dest": "cargo/vendor/crossbeam-deque-0.8.6"
@@ -2415,6 +2428,19 @@
         "type": "inline",
         "contents": "{\"package\": \"dea2df4cf52843e0452895c455a1a2cfbb842a1e7329671acf418fdc53ed4c59\", \"files\": {}}",
         "dest": "cargo/vendor/error-code-3.3.2",
+        "dest-filename": ".cargo-checksum.json"
+    },
+    {
+        "type": "archive",
+        "archive-type": "tar-gzip",
+        "url": "https://static.crates.io/crates/eso_addon_manifest/eso_addon_manifest-0.1.2.crate",
+        "sha256": "3c49f61d84875e267d3e08b19857a9ef36540c778ece7f2df3f88973da1545df",
+        "dest": "cargo/vendor/eso_addon_manifest-0.1.2"
+    },
+    {
+        "type": "inline",
+        "contents": "{\"package\": \"3c49f61d84875e267d3e08b19857a9ef36540c778ece7f2df3f88973da1545df\", \"files\": {}}",
+        "dest": "cargo/vendor/eso_addon_manifest-0.1.2",
         "dest-filename": ".cargo-checksum.json"
     },
     {
@@ -7875,6 +7901,19 @@
         "type": "inline",
         "contents": "{\"package\": \"63e71662fa4b2a2c3a26f570f037eb95bb1f85397f3cd8076caed2f026a6d100\", \"files\": {}}",
         "dest": "cargo/vendor/tracing-0.1.44",
+        "dest-filename": ".cargo-checksum.json"
+    },
+    {
+        "type": "archive",
+        "archive-type": "tar-gzip",
+        "url": "https://static.crates.io/crates/tracing-appender/tracing-appender-0.2.4.crate",
+        "sha256": "786d480bce6247ab75f005b14ae1624ad978d3029d9113f0a22fa1ac773faeaf",
+        "dest": "cargo/vendor/tracing-appender-0.2.4"
+    },
+    {
+        "type": "inline",
+        "contents": "{\"package\": \"786d480bce6247ab75f005b14ae1624ad978d3029d9113f0a22fa1ac773faeaf\", \"files\": {}}",
+        "dest": "cargo/vendor/tracing-appender-0.2.4",
         "dest-filename": ".cargo-checksum.json"
     },
     {

@@ -36,17 +36,20 @@
                 "cargo --offline fetch --manifest-path Cargo.toml --verbose",
                 "cargo --offline build --release --verbose",
                 "install -Dm755 ./target/release/eso-addon-manager -t /app/bin/",
-                "install -Dm644 ./data/${FLATPAK_ID}.desktop -t /app/share/applications/",
-                "install -Dm644 ./data/${FLATPAK_ID}.svg -t /app/share/icons/hicolor/scalable/apps/",
-                "install -Dm644 ./data/${FLATPAK_ID}.metainfo.xml -t /app/share/metainfo"
+                "install -Dm644 ${FLATPAK_ID}.desktop -t /app/share/applications/",
+                "install -Dm644 ${FLATPAK_ID}.svg -t /app/share/icons/hicolor/scalable/apps/",
+                "install -Dm644 ${FLATPAK_ID}.metainfo.xml -t /app/share/metainfo"
             ],
             "sources": [
                 {
                     "type": "git",
                     "url": "https://github.com/arviceblot/eso-addons",
-                    "commit": "9d29dbd588190646b55b9c7281dc3bae80aa10ae"
+                    "commit": "7f0f1d16ab9f189967dea306b37b0ebf1f47f0ad"
                 },
-                "cargo-sources.json"
+                "cargo-sources.json",
+                "com.arviceblot.eso-addon-manager.desktop",
+                "com.arviceblot.eso-addon-manager.svg",
+                "com.arviceblot.eso-addon-manager.metainfo.xml"
             ]
         }
     ]
