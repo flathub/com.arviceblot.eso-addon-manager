@@ -29,12 +29,13 @@
             "buildsystem": "simple",
             "build-options": {
                 "env": {
-                    "CARGO_HOME": "/run/build/eso-addon-manager/cargo"
+                    "CARGO_HOME": "/run/build/eso-addon-manager/cargo",
+                    "CARGO_NET_OFFLINE": "true"
                 }
             },
             "build-commands": [
                 "cargo --offline fetch --manifest-path Cargo.toml --verbose",
-                "cargo --offline build --release --verbose",
+                "cargo build --offline --release --verbose",
                 "install -Dm755 ./target/release/eso-addon-manager -t /app/bin/",
                 "install -Dm644 ${FLATPAK_ID}.desktop -t /app/share/applications/",
                 "install -Dm644 ${FLATPAK_ID}.svg -t /app/share/icons/hicolor/scalable/apps/",
@@ -48,16 +49,8 @@
                 },
                 "cargo-sources.json",
                 {
-                    "type": "file",
-                    "path": "com.arviceblot.eso-addon-manager.desktop"
-                },
-                {
-                    "type": "file",
-                    "path": "com.arviceblot.eso-addon-manager.svg"
-                },
-                {
-                    "type": "file",
-                    "path": "com.arviceblot.eso-addon-manager.metainfo.xml"
+                    "type": "dir",
+                    "path": "."
                 }
             ]
         }
