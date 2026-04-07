@@ -49,8 +49,16 @@
                 },
                 "cargo-sources.json",
                 {
-                    "type": "dir",
-                    "path": "."
+                    "type": "file",
+                    "path": "com.arviceblot.eso-addon-manager.desktop"
+                },
+                {
+                    "type": "file",
+                    "path": "com.arviceblot.eso-addon-manager.svg"
+                },
+                {
+                    "type": "file",
+                    "path": "com.arviceblot.eso-addon-manager.metainfo.xml"
                 }
             ]
         }
