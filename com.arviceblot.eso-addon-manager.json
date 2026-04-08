@@ -29,24 +29,37 @@
             "buildsystem": "simple",
             "build-options": {
                 "env": {
-                    "CARGO_HOME": "/run/build/eso-addon-manager/cargo"
+                    "CARGO_HOME": "/run/build/eso-addon-manager/cargo",
+                    "CARGO_NET_OFFLINE": "true"
                 }
             },
             "build-commands": [
                 "cargo --offline fetch --manifest-path Cargo.toml --verbose",
-                "cargo --offline build --release --verbose",
+                "cargo build --offline --release --verbose",
                 "install -Dm755 ./target/release/eso-addon-manager -t /app/bin/",
-                "install -Dm644 ./data/${FLATPAK_ID}.desktop -t /app/share/applications/",
-                "install -Dm644 ./data/${FLATPAK_ID}.svg -t /app/share/icons/hicolor/scalable/apps/",
-                "install -Dm644 ./data/${FLATPAK_ID}.metainfo.xml -t /app/share/metainfo"
+                "install -Dm644 ${FLATPAK_ID}.desktop -t /app/share/applications/",
+                "install -Dm644 ${FLATPAK_ID}.svg -t /app/share/icons/hicolor/scalable/apps/",
+                "install -Dm644 ${FLATPAK_ID}.metainfo.xml -t /app/share/metainfo"
             ],
             "sources": [
                 {
                     "type": "git",
                     "url": "https://github.com/arviceblot/eso-addons",
-                    "commit": "9d29dbd588190646b55b9c7281dc3bae80aa10ae"
+                    "commit": "90234b6e5a1962d4ab91b9a4580b2b7cb69c80f2"
                 },
-                "cargo-sources.json"
+                "cargo-sources.json",
+                {
+                    "type": "file",
+                    "path": "com.arviceblot.eso-addon-manager.desktop"
+                },
+                {
+                    "type": "file",
+                    "path": "com.arviceblot.eso-addon-manager.svg"
+                },
+                {
+                    "type": "file",
+                    "path": "com.arviceblot.eso-addon-manager.metainfo.xml"
+                }
             ]
         }
     ]
