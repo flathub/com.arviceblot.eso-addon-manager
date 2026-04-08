@@ -56,6 +56,18 @@
     </screenshots>
 
     <releases>
+        <release version="0.4.17" date="2026-04-08">
+            <description>
+                <p>
+                    Version 0.4.17 fixes a crash on startup.
+                </p>
+                <ul>
+                    <li>Fix: Crash when parsing non utf-8 addon manifest files</li>
+                    <li>Fix: Crash when attempting to get installed addons while updating</li>
+                    <li>Fix: Bad installed addon identification</li>
+                </ul>
+            </description>
+        </release>
         <release version="0.4.16" date="2026-04-07">
             <description>
                 <p>
