@@ -63,6 +63,8 @@
                 </p>
                 <ul>
                     <li>Fix: Crash when parsing non utf-8 addon manifest files</li>
+                    <li>Fix: Crash when attempting to get installed addons while updating</li>
+                    <li>Fix: Bad installed addon identification</li>
                 </ul>
             </description>
         </release>
