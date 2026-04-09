@@ -2433,14 +2433,14 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://static.crates.io/crates/eso_addon_manifest/eso_addon_manifest-0.1.3.crate",
-        "sha256": "e2e6e7666de9501c97c1f70ea21b5d93cdf7270b5fbf1bd308cba073e4e92cf7",
-        "dest": "cargo/vendor/eso_addon_manifest-0.1.3"
+        "url": "https://static.crates.io/crates/eso_addon_manifest/eso_addon_manifest-0.1.4.crate",
+        "sha256": "87a7145861475ad2acadcca665f709b715a0c6bae298b2a4cc667c9f875559ad",
+        "dest": "cargo/vendor/eso_addon_manifest-0.1.4"
     },
     {
         "type": "inline",
-        "contents": "{\"package\": \"e2e6e7666de9501c97c1f70ea21b5d93cdf7270b5fbf1bd308cba073e4e92cf7\", \"files\": {}}",
-        "dest": "cargo/vendor/eso_addon_manifest-0.1.3",
+        "contents": "{\"package\": \"87a7145861475ad2acadcca665f709b715a0c6bae298b2a4cc667c9f875559ad\", \"files\": {}}",
+        "dest": "cargo/vendor/eso_addon_manifest-0.1.4",
         "dest-filename": ".cargo-checksum.json"
     },
     {
