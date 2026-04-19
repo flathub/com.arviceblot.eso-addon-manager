@@ -56,10 +56,23 @@
     </screenshots>
 
     <releases>
+        <release version="0.4.19" date="2026-04-19">
+            <description>
+                <p>
+                    Version 0.4.19 fixes various crashes.
+                </p>
+                <ul>
+                    <li>Fix: Crash when parsing invalid addon manifest file errors</li>
+                    <li>Fix: Startup crash when parsing invalid addon manifest versions</li>
+                    <li>Fix: Crash when attempting to delete non-existent directories</li>
+                    <li>Fix: Duplicate addons registered at startup</li>
+                </ul>
+            </description>
+        </release>
         <release version="0.4.18" date="2026-04-08">
             <description>
                 <p>
-                    Version 0.4.17 fixes a crash on startup.
+                    Version 0.4.18 fixes a crash on startup.
                 </p>
                 <ul>
                     <li>Fix: Crash when parsing invalid addon manifest files</li>
