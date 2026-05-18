@@ -56,6 +56,24 @@
     </screenshots>
 
     <releases>
+        <release version="0.4.20" date="2026-05-18">
+            <description>
+                <p>
+                    Version 0.4.20 is skooma-fueled thanks to @raggi.
+                </p>
+                <ul>
+                    <li>New: Added proper rendering to addon descriptions and changelogs</li>
+                    <li>New: Dependency handling features</li>
+                    <li>New: View addon dependents and dependencies</li>
+                    <li>New: Error view if something goes wrong</li>
+                    <li>Fix: Addon catalog not updating</li>
+                    <li>Fix: HarvestMap data not updating properly</li>
+                    <li>Fix: Other bug fixes and QOL additions</li>
+                    <li>Change: Update dependencies</li>
+                    <li>Remove: Unused dependencies</li>
+                </ul>
+            </description>
+        </release>
         <release version="0.4.19" date="2026-04-19">
             <description>
                 <p>
